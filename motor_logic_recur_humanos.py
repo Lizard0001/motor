@@ -14,7 +14,9 @@ def evaluar_reglas_empleado(grados):
     
     activacion_regla3 =  min(grados["desempeno_bajo"], grados["antiguedad_corta"])
     activacion_regla4 =  min(grados["desempeno_alto"], grados["antiguedad_corta"])
-
+    #si dos parametros son dan como resultado un mismo valor de activacion, se toma 
+    # el maximo de los dos para la conclusion final
+    # fuerza_final = max(activacion_regla1, activacion_regla2, activacion_regla3, activacion_regla4
     return { "BONO ALTO": activacion_regla1, "SIN BONO": activacion_regla2,
             "BONO MEDIO": activacion_regla4, "BONO MINIMO": activacion_regla3 }
 

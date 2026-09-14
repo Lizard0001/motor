@@ -1,0 +1,4 @@
+COG numerador es=(0.1*0.2)+(0.2*0.8)+(0.3*0.8)+(0.40.0)=0.42000000004
+sumatoria de miu de X=(0.2+0.8+0.8+0.0)= 1.18
+descuesnto = 0.4200004 / 1.18 0 0.2333333
+el sistema recomendaria el 20%
