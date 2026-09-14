@@ -1,0 +1,3 @@
+si se evalua el OR primero, entoces se truncara en el valor MAX de las dos que
+es 0.6 pero al haber un and esta se truncara en el valor minimo 1ue es 0.4
+y esto dara una membresia de 0.4 de posibilidades de aprobacion del proyecto
